@@ -1,0 +1,51 @@
+body {
+  font-family: "Verdana";
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color: #ccffcc;
+  position: fixed;
+  top: 0;
+  z-index: 10s;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  font-size: 30px;
+  padding: 20px 20px;
+  word-spacing: 20px;
+}
+
+.top-wrapper {
+  padding: 100px 0;
+  color: Black;
+  text-align: justify;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+  font-size: 30px;
+  text-align: center;
+}
