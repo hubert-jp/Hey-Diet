@@ -1,1 +1,1 @@
-# Hey-Diet
+# Hey-Diet.io
