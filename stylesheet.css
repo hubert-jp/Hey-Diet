@@ -1,0 +1,185 @@
+body {
+  font-family: "Verdana";
+  margin: 0;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(204, 255, 204, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10s;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  font-size: 30px;
+  padding: 20px 20px;
+  word-spacing: 20px;
+}
+
+.top-wrapper {
+  padding: 100px 0;
+  color: Black;
+  text-align: justify;
+  background-image: url(https://images.japancentre.com/howtouse_pages/header_images/64/original/jc_shirataki_general_1200-350_%281%29.jpg?1469547245);
+  background-size: cover;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flavor-wrapper {
+  height: 350px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #008040;
+}
+
+.heading h1 {
+  border-bottom: 2px solid #008040;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+
+.flavor {
+  float: left;
+  width: 25%;
+}
+
+.flavor-icon {
+  position: relative;
+}
+
+.flavor-icon img {
+  width: 280px;
+  height: 180px;
+}
+
+.flavor-icon p {
+  position: absolute;
+  width: 100%;
+  color: black;
+}
+
+.extra {
+  padding: 220px;
+}
+
+.extra h3{
+  font-weight: normal;
+  color: #008040;
+}
+
+.comparison-wrapper{
+  text-align: center;
+  background-color: #006600;
+  color: white;
+  padding-bottom: 80px;
+}
+.comparison-wrapper .section-title {
+  border-bottom: 2px solid #e6ffe6;
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #e6ffe6;
+  width: 100%;
+}
+
+.comparison-wrapper .description {
+  color: #e6ffe6;
+  width: 100%;
+}
+
+.noodle-image img{
+  border-radius: 50%;
+}
+
+.section-title {
+  border-bottom: 3px solid black;
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #104d2d;
+  width: 100%;
+}
+
+.contact-form {
+  background-color: #e6e6e6;
+  color: black;
+  margin-top: 0;
+  padding-bottom: 20px;
+}
+
+.contact-form .heading{
+  text-align: center;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #dee7ec;
+  display: inline-block;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #80ffcc;
+  cursor: pointer;
+  box-shadow: 0 7px #004d2e;
+}
+
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+footer h1 {
+  color: black;
+
+}
+
+footer p {
+  color: black;
+  font-size: 20px;
+}
+
+footer {
+  height: 150px;
+  width: 100%;
+  background-color:	#8dac8e;
+  padding-top: 20px;
+}
